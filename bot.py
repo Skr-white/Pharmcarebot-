@@ -2,7 +2,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TOKEN = "8282174001:AAHIDJ-BBJoRJ_G1rf04O6PcF8xFKcHKvgA"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello 👋! I am your PharmCare Bot. How can I help you today?")
